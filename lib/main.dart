@@ -23,7 +23,7 @@ class contact extends StatelessWidget {
         body: Column(
           children: <Widget>[
             SizedBox(
-              height: 10,
+              height: 30,
             ),
             Center(
               child: Image.asset(
@@ -166,6 +166,9 @@ class contact extends StatelessWidget {
                   ),
                 ),
               ],
+            ),
+            SizedBox(
+              height: 20,
             ),
             Text(
               "Copyright @ 2021 , Dev Raj Verma",

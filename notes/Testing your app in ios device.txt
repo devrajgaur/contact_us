@@ -1,0 +1,18 @@
+Testing your app on IOS
+For iOS this is a little more complicated because you need an Apple ID or to sign up for a "Developer Account":
+
+Open XCode, then open "Preferences>Accounts". Sign in with your ID.
+
+"Manage Certificates" > click on the "+" sign and select "iOS Development".
+
+Plug your device into your machine. Find your device in the drop down (Window > Organizer).
+
+Below the Team pop-up menu, click Fix Issue.
+
+In Xcode, click the Run button.
+
+(in subsequent runs,
+you can deploy to the iOS device with Android Studio,
+VS Code,
+or any other IDE of choice,
+you just need to set up that certificate the first time with Xcode. Here's Apple's documentation on setting up Xcode to run a physical device.)
